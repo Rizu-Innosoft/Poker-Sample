@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.validationErr{
+  color:red;
+  margin-top: 0;
+}
+
+.approved_cls{
+  color:green;
+}
+
+.rejected_cls{
+  color:red;
+}
+
+.swal2-title{
+  color:#10161c!important;
+}
+
+.loginLogo{
+  /* background: #11161e; */
+    padding: 10px;
+    border-radius: 13px;
+}
+.admin-login .form-control {
+  background: #000;
+  color: #fff;
+}
+.admin-login .form-control:hover, .admin-login .form-control:focus {
+  background: #000;
+}
+
+/* .loginLogo img{
+  width: 40%;
+} */
+.table_filter{
+  float: right;
+}
+
+i.fa.fa-copy {
+  color: #bd8320;
+}
+
+.as-react-table table thead {
+  background: linear-gradient(80deg, #bd8320, #614c11);
+  color: #ffffff;
+}
+.pagination li.page-item {
+  line-height: 5px;
+}
+.as-react-table {
+  overflow-x: auto;
+}
+/* width */
+.as-react-table::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+.as-react-table::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.as-react-table::-webkit-scrollbar-thumb {
+  background: linear-gradient(80deg, #bd8320, #614c11); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.as-react-table::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(80deg, #bd8320, #614c11); 
+}
+.table-foot {
+  margin-bottom: 11px;
+}
+p.fs-14.mb-0.fw-700.text-primary {
+  color: #fff!important;
+  font-weight: 600;
+}
+small.fs-10.mb-0.text-uppercase.text-mute {
+  color: #fff!important;
+}
